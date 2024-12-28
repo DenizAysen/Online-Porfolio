@@ -110,10 +110,32 @@ a{
     font-size: 1rem;
 }
 @media (max-width: 480px){
+    .Ttext{
+        font-size: 2.5rem;
+    }
+    .Ttext > p{
+        font-size: 2.5rem;
+    }
+    .PP{
+        width: 150px;
+        height: 150px;
+    }
+    div > h2{
+        font-size: 2rem;
+    }
     .aboutme > p{
         font-size: 1.2rem;
         padding-left: 30px;
         padding-right: 30px;
+    }
+    .profile > p{
+        font-size: 1.5rem;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .project{
+        width: 150px;
+        height: 150px;
     }
 }
 
