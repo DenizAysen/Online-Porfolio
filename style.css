@@ -109,8 +109,15 @@ a{
 .copyright{
     font-size: 1rem;
 }
+@media (max-width: 480px){
+    .aboutme > p{
+        font-size: 1.2rem;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
 
-@media (max-width: 690px){
+@media (min-width: 481px) and (max-width: 690px){
     .Ttext{
         font-size: 2.5rem;
     }
@@ -139,7 +146,7 @@ a{
         height: 150px;
     }
 }
-@media (min-width: 690px) and (max-width: 990px){
+@media (min-width: 691px) and (max-width: 990px){
     .Ttext{
         font-size: 2.5rem;
     }
@@ -162,7 +169,7 @@ a{
     }
 }
 
-@media (min-width: 990px) and (max-width: 1290px){
+@media (min-width: 991px) and (max-width: 1290px){
     .aboutme > p{
         font-size: 1.5rem;
         padding-left: 30px;
